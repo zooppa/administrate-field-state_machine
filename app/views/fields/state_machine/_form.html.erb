@@ -1,0 +1,32 @@
+<%#
+# StateMachine Form Partial
+
+This partial renders a selectable state attribute.
+Saving the state will trigger callbacks defined in the state machine
+
+## Local variables:
+
+- `f`:
+  A Rails form generator, used to help create the appropriate input fields.
+- `field`:
+  An instance of Administrate::Field::StateMachine.
+  A wrapper around the attribute pulled from the database.
+%>
+
+<div class="field-unit__label">
+  <%= f.label field.attribute %>
+</div>
+<div class="field-unit__field">
+  <%= f.select(
+    :state_event,
+    options_from_collection_for_select(
+      field.all_states,
+      :to_s,
+      :to_s,
+      {
+        selected: field.data.presence,
+        disabled: field.all_states - field.possible_states
+      }
+    )
+  ) %>
+</div>
