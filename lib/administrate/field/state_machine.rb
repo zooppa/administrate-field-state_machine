@@ -15,12 +15,9 @@ module Administrate
         data
       end
 
-      def all_states
-        resource.class.state_machine.states.map(&:name)
-      end
-
-      def possible_states
-        resource.state_paths.to_states
+      # First-level transitions that can be triggered from the current state
+      def transitions
+        resource.state_paths.map(&:first).uniq
       end
     end
   end

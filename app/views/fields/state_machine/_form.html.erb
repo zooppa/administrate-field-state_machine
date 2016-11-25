@@ -1,8 +1,8 @@
 <%#
 # StateMachine Form Partial
 
-This partial renders a selectable state attribute.
-Saving the state will trigger callbacks defined in the state machine
+This partial renders a list of selectable transitions.
+Saving the state will trigger the event callbacks defined in the state machine.
 
 ## Local variables:
 
@@ -20,13 +20,10 @@ Saving the state will trigger callbacks defined in the state machine
   <%= f.select(
     :state_event,
     options_from_collection_for_select(
-      field.all_states,
-      :to_s,
-      :to_s,
-      {
-        selected: field.data.presence,
-        disabled: field.all_states - field.possible_states
-      }
-    )
+      field.transitions,
+      :event,
+      ->(transition) { transition.event.to_s.humanize },
+    ),
+    include_blank: 'Select…'
   ) %>
 </div>

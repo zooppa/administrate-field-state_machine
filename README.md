@@ -4,10 +4,7 @@
 
 A plugin to handle [state machine] attributes in [Administrate].
 
-The edit view uses a `<select>` element: if a transition path to the target state exists that state will be selectable,
-otherwise it will be disabled.
-
-**IMPORTANT**
+## IMPORTANT NOTICE
 This gem relies on the original resource being passed to the field.
 This functionality is not yet merged in Administrate
 ([a PR has been in review for a while](thoughtbot/administrate#381)),
@@ -34,6 +31,16 @@ ATTRIBUTE_TYPES = {
   bar: Field::StateMachine
 }.freeze
 ```
+
+Add to your `FooController`:
+
+```ruby
+def permitted_attributes
+  super + [:state_event]
+end
+```
+
+[`state_event`](https://github.com/state-machines/state_machines#explicit-vs-implicit-event-transitions) is used by the state machine gem to implicitly trigger the event.
 
 ## About
 
