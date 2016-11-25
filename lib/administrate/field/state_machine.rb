@@ -12,7 +12,7 @@ module Administrate
       end
 
       def to_s
-        data
+        data.humanize
       end
 
       # First-level transitions that can be triggered from the current state
