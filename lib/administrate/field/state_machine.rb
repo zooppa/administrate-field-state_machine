@@ -3,10 +3,9 @@ require 'rails'
 
 module Administrate
   module Field
-    class Engine < ::Rails::Engine
-    end
-
     class StateMachine < Administrate::Field::Base
+      class Engine < ::Rails::Engine; end
+
       def self.searchable?
         true
       end
