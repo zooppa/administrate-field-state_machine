@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.0.4](https://github.com/z-productions/administrate-field-state_machine/tree/v0.0.4) (2016-11-29)
+[Full Changelog](https://github.com/z-productions/administrate-field-state_machine/compare/v0.0.3...v0.0.4)
+
+* Fix engine class declaration
+
 ## [v0.0.3](https://github.com/z-productions/administrate-field-state_machine/tree/v0.0.3) (2016-11-25)
 [Full Changelog](https://github.com/z-productions/administrate-field-state_machine/compare/v0.0.2...v0.0.3)
 
