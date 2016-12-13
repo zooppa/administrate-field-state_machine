@@ -1,0 +1,4 @@
+.field-unit--state-machine .field-unit__field select {
+  display: inline-block;
+  width: auto;
+}

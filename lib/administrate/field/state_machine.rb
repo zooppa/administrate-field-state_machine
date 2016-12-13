@@ -4,7 +4,9 @@ require 'rails'
 module Administrate
   module Field
     class StateMachine < Administrate::Field::Base
-      class Engine < ::Rails::Engine; end
+      class Engine < ::Rails::Engine
+        Administrate::Engine.add_stylesheet 'administrate-field-state_machine/application'
+      end
 
       def self.searchable?
         true
