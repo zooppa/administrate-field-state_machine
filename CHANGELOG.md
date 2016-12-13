@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.1.0](https://github.com/z-productions/administrate-field-state_machine/tree/v0.1.0) (2016-12-13)
+[Full Changelog](https://github.com/z-productions/administrate-field-state_machine/compare/v0.0.4...v0.1.0)
+
+* Add current state in edit mode
+
 ## [v0.0.4](https://github.com/z-productions/administrate-field-state_machine/tree/v0.0.4) (2016-11-29)
 [Full Changelog](https://github.com/z-productions/administrate-field-state_machine/compare/v0.0.3...v0.0.4)
 
