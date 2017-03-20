@@ -1,6 +1,6 @@
 # Administrate::Field::StateMachine
 
-[![Code Climate](https://codeclimate.com/github/z-productions/administrate-field-state_machine/badges/gpa.svg)](https://codeclimate.com/github/z-productions/administrate-field-state_machine)
+[![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-state_machine/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-state_machine)
 
 A plugin to handle [state machine] attributes in [Administrate].
 
