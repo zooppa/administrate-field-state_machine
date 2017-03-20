@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.1.1](https://github.com/zooppa/administrate-field-state_machine/tree/v0.1.0) (2017-03-20)
+[Full Changelog](https://github.com/zooppa/administrate-field-state_machine/compare/v0.1.0...v0.1.1)
+
+* Bump up Administrate dependency
+
 ## [v0.1.0](https://github.com/zooppa/administrate-field-state_machine/tree/v0.1.0) (2016-12-13)
 [Full Changelog](https://github.com/zooppa/administrate-field-state_machine/compare/v0.0.4...v0.1.0)
 
