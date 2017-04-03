@@ -2,7 +2,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-state_machine'
-  gem.version = '0.1.1'
+  gem.version = '0.1.2'
   gem.authors = ['Michele Gerarduzzi']
   gem.email = ['michele.gerarduzzi@gmail.com']
   gem.homepage = 'https://github.com/zooppa/administrate-field-state_machine'

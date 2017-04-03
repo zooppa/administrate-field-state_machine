@@ -15,7 +15,7 @@ so you will have to fork and [patch it](https://git.io/vXhCo) yourself.
 Add it to your `Gemfile`:
 
 ```ruby
-gem 'administrate-field-state_machine', '~> 0.1.1'
+gem 'administrate-field-state_machine', '~> 0.1.2'
 ```
 
 Run:

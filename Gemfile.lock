@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    administrate-field-state_machine (0.1.1)
+    administrate-field-state_machine (0.1.2)
       administrate (< 1.0.0)
       rails (>= 4.2)
 
