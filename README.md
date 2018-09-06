@@ -4,12 +4,6 @@
 
 A plugin to handle [state machine] attributes in [Administrate].
 
-## IMPORTANT NOTICE
-This gem relies on the original resource being passed to the field.
-This functionality is not yet merged in Administrate
-([a PR has been in review for a while](thoughtbot/administrate#381)),
-so you will have to fork and [patch it](https://git.io/vXhCo) yourself.
-
 ## Usage
 
 Add it to your `Gemfile`:
