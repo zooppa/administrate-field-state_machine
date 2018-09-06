@@ -39,8 +39,8 @@ end
 
 ## About
 
-Administrate::Field::StateMachine is maintained by [z.productions].
+Administrate::Field::StateMachine is maintained by [Zooppa].
 
 [state machine]: https://github.com/state-machines/state_machines
-[Administrate]: https://github.com/thoughtbot/administrate
-[z.productions]: https://www.z.productions/
+[administrate]: https://github.com/thoughtbot/administrate
+[zooppa]: https://www.zooppa.com/
