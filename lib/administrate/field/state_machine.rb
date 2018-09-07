@@ -17,9 +17,17 @@ module Administrate
         data.humanize
       end
 
+      def named_paths
+        "#{attribute}_paths"
+      end
+
+      def named_event
+        "#{attribute}_event"
+      end
+
       # First-level transitions that can be triggered from the current state
       def transitions
-        resource.state_paths.map(&:first).uniq
+        resource.send(named_paths).map(&:first).uniq
       end
     end
   end

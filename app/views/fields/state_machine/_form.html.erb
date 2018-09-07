@@ -19,7 +19,7 @@ Saving the state will trigger the event callbacks defined in the state machine.
 <div class="field-unit__field">
   <%= field %> &rarr;
   <%= f.select(
-    :state_event,
+    field.named_event,
     options_from_collection_for_select(
       field.transitions,
       :event,

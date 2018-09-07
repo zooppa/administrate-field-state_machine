@@ -3,7 +3,7 @@
 [![Build Status](https://semaphoreci.com/api/v1/zooppa/administrate-field-state_machine/branches/master/badge.svg)](https://semaphoreci.com/zooppa/administrate-field-state_machine)
 [![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-state_machine/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-state_machine)
 
-A plugin to handle [state machine] attributes in [Administrate].
+A plugin to handle multiple [state machine] attributes in [Administrate].
 
 ## Usage
 
@@ -23,6 +23,7 @@ Add to your `FooDashboard`:
 
 ```ruby
 ATTRIBUTE_TYPES = {
+  foo: Field::StateMachine
   bar: Field::StateMachine
 }.freeze
 ```
@@ -31,7 +32,7 @@ Add to your `FooController`:
 
 ```ruby
 def permitted_attributes
-  super + [:state_event]
+  super + [:foo_event, :bar_event]
 end
 ```
 
