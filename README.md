@@ -1,6 +1,6 @@
 # Administrate::Field::StateMachine
 
-[![Build Status](https://semaphoreci.com/api/v1/zooppa/administrate-field-state_machine/branches/master/badge.svg)](https://semaphoreci.com/zooppa/administrate-field-state_machine)
+[![Build Status](https://travis-ci.com/zooppa/administrate-field-state_machine.svg?branch=master)](https://travis-ci.com/zooppa/administrate-field-state_machine)
 [![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-state_machine/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-state_machine)
 
 A plugin to handle [state machine] attributes in [Administrate].
