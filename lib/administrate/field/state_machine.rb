@@ -19,7 +19,7 @@ module Administrate
 
       # First-level transitions that can be triggered from the current state
       def transitions
-        resource.state_paths.map(&:first).uniq
+        resource.public_send("#{attribute}_paths").map(&:first).uniq
       end
     end
   end
