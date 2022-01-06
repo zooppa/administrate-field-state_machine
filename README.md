@@ -20,7 +20,7 @@ If you’re interested in taking over and steward the project moving forward, pl
 Add it to your `Gemfile`:
 
 ```ruby
-gem 'administrate-field-state_machine', '~> 0.1.2'
+gem 'administrate-field-state_machine', '~> 0.2.0'
 ```
 
 Run:

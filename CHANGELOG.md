@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.2.0](https://github.com/zooppa/administrate-field-state_machine/tree/v0.2.0) (2022-01-06)
+
+[Full Changelog](https://github.com/zooppa/administrate-field-state_machine/compare/v0.1.2...v0.2.0)
+
+- Add support for Rails 7
+
 ## [v0.1.2](https://github.com/zooppa/administrate-field-state_machine/tree/v0.1.2) (2017-03-20)
 
 [Full Changelog](https://github.com/zooppa/administrate-field-state_machine/compare/v0.1.1...v0.1.2)
