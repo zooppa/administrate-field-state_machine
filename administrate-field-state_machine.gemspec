@@ -1,4 +1,6 @@
-$:.push File.expand_path('lib', __dir__)
+# frozen_string_literal: true
+
+$LOAD_PATH.push File.expand_path('lib', __dir__)
 
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-state_machine'
@@ -9,6 +11,9 @@ Gem::Specification.new do |gem|
   gem.summary = 'State machine plugin for Administrate'
   gem.description = 'A plugin to handle state machine attributes in Administrate'
   gem.license = 'MIT'
+  gem.metadata['rubygems_mfa_required'] = 'true'
+
+  gem.required_ruby_version = '>= 2.7.5'
 
   gem.require_paths = ['lib']
   gem.files = `git ls-files`.split("\n")
