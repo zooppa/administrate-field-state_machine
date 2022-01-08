@@ -22,6 +22,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'administrate', '< 1.0.0'
   gem.add_runtime_dependency 'rails', '>= 4.2', '< 8'
 
+  gem.add_development_dependency 'overcommit', '~> 0.58'
   gem.add_development_dependency 'rake', '~> 13.0'
   gem.add_development_dependency 'rspec', '~> 3.8'
   gem.add_development_dependency 'rubocop', '~> 1.1'
