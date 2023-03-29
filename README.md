@@ -1,8 +1,6 @@
 # Administrate::Field::StateMachine
 
-[![Build status](https://github.com/zooppa/administrate-field-state_machine/actions/workflows/build.yml/badge.svg)](https://github.com/zooppa/administrate-field-state_machine/actions/workflows/build.yml) [![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-state_machine/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-state_machine)
-
-A plugin to handle [state machine] attributes in [Administrate].
+[![No Maintenance Intended](https://unmaintained.tech/badge.svg)](https://unmaintained.tech/) [![Build status](https://github.com/zooppa/administrate-field-state_machine/actions/workflows/build.yml/badge.svg)](https://github.com/zooppa/administrate-field-state_machine/actions/workflows/build.yml) [![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-state_machine/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-state_machine)
 
 ---
 
@@ -13,6 +11,8 @@ A plugin to handle [state machine] attributes in [Administrate].
 If you’re interested in taking over and steward the project moving forward, please get in touch.
 
 ---
+
+A plugin to handle [state machine] attributes in [Administrate].
 
 ## Usage
 
